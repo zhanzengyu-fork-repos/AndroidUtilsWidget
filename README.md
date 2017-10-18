@@ -1,6 +1,8 @@
 # AndroidUtils
 >收集一些工具类，防止重复造轮子
 
+***拷贝可以直接使用，简单粗暴[机智]***
+
 [LogUtils](./app/src/main/java/com/nesger/androidutils/LogUtils.java):  
 日志统一管理类。  
 
