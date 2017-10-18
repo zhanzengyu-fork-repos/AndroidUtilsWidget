@@ -39,7 +39,6 @@ public class LogUtils {
         }
     }
 
-    @Deprecated
     public static void e(String tag, String msg) {
         if (E) {
             Log.e(tag + ":" + getScope(), msg);
