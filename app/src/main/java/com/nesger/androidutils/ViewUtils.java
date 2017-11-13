@@ -4,7 +4,7 @@ import android.graphics.Rect;
 import android.view.View;
 
 /**
- * Created by GT on 2017/10/16.
+ * Created by nesger.zhan on 2017/10/16.
  */
 
 public class ViewUtils {
@@ -28,7 +28,7 @@ public class ViewUtils {
         location.left = loc_int[0];
         location.top = loc_int[1];
         location.right = location.left + v.getWidth();
-        location.bottom = location.top - v.getHeight();
+        location.bottom = location.top + v.getHeight();
         return location;
     }
 
